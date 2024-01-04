@@ -2,7 +2,7 @@
 """
 Created on Mon Nov 27 01:51:01 2023
 
-@author: edosc
+@author: Edoardo Giancarli
 """
 
 class _model_insights:
