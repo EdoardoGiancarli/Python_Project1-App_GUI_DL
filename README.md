@@ -4,7 +4,11 @@
 
 
 # Content
-1. AppGUI?DL
+1. App_GUI_DL (.py): script with the GUI app initialization (using taipy)
+2. Image_Simulation (.py): script for images simulation (circles, triangles, squares)
+3. SimpleNet_Analysis (.py): script for SimpleNet classifier model training and analysis
+4. Model_n_Datasets (folder): folder with SimpleNet models trial and curves (loss and accuracy)
+5. pysim (package): tools for images simulation and model analysis
 
 
 # Python info
