@@ -26,11 +26,12 @@ class SimpleNet(nn.Module):
                         block ('ReLU' or 'PReLU', default = PReLU)
         
     Architecture:
-        1. 2x: Conv, BatchNorm, PReLU (or ReLU)
-        2. Conv, BatchNorm, PReLU (or ReLU) + MaxPool
-        3. Flatten
-        4. linear + PReLU (or ReLU) + Dropout
-        5. linear out + softmax
+        1. Conv, BatchNorm, PReLU (or ReLU)
+        2. Conv, BatchNorm, PReLU (or ReLU) + Dropout
+        3. Conv, BatchNorm, PReLU (or ReLU) + MaxPool
+        4. Flatten
+        5. linear + PReLU (or ReLU) + Dropout
+        6. linear out + softmax
     
     Ref:
         [1] K. He et al., "Deep Residual Learning for Image Recognition" (2015)
